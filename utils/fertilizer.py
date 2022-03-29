@@ -1,17 +1,52 @@
 fertilizer_dic = {
         'NHigh': """The N value of soil is high and might give rise to weeds.
         <br/> Please consider the following suggestions:
+             <style>
+    table,
+    th,
+    td {
+        border: 2px solid black;
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    </style>
+<table style="width:100%">
+  <tr>
+    <td>1</td>
+    <td><i> Organic Fertilizers </i> – adding Organic Fertilizers is one of the simplest ways to change your soil with nitrogen. Be cautious as there are various types of Organic Fertilizers with different amount of nitrogen.</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><i>Cow dung </i> – use the waste to feed your gardening habit! Cow dungs are very ancient and trusted source which is rich in nitrogen. Once the grounds break down, your soil will be fed with chemical free nitrogen. An added benefit to including cow dung to your soil is while it will compost, it will also help provide increased drainage to your soil.
+</td>
+  </tr>
+  <tr>
+    <td>3</td>
+<td><i>Plant nitrogen fixing plants</i> – planting vegetables that are in Fabaceae family like peas, beans and soybeans have the ability to increase nitrogen in your soil
+</td>
+  </tr>
+  <tr>
+  <td>4</td>
+    <td>Plant ‘green manure’ crops like cabbage, corn and brocolli
+</td>
 
-        <br/><br/> 1. <i> Organic Fertilizers </i> – adding Organic Fertilizers is one of the simplest ways to change your soil with nitrogen. Be cautious as there are various types of Organic Fertilizers with different amount of nitrogen.
+  </tr>
+  <tr>
+    <td>5</td>
+<td><i>Use mulch (wet grass) while growing crops</i> - Mulch can also include sawdust and scrap soft woods
+</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><i> Use nitrogen consuming bacteria </i> - Bacteria such as cyanobacteria (or blue-green algae) Anabaena and Nostoc thrive on nitrogen.
+</td>
+    
+  </tr>
 
-        <br/> 2. <i>Cow dung </i> – use the waste to feed your gardening habit! Cow dungs are very ancient and trusted source which is rich in nitrogen. Once the grounds break down, your soil will be fed with chemical free nitrogen. An added benefit to including cow dung to your soil is while it will compost, it will also help provide increased drainage to your soil.
 
-        <br/>3. <i>Plant nitrogen fixing plants</i> – planting vegetables that are in Fabaceae family like peas, beans and soybeans have the ability to increase nitrogen in your soil
 
-        <br/>4. Plant ‘green manure’ crops like cabbage, corn and brocolli
-
-        <br/>5. <i>Use mulch (wet grass) while growing crops</i> - Mulch can also include sawdust and scrap soft woods
-	<br/>6. <i> Use nitrogen consuming bacteria </i> - Bacteria such as cyanobacteria (or blue-green algae) Anabaena and Nostoc thrive on nitrogen.""",
+    </table>""",
 
         'Nlow': """The N value of your soil is low.
         <br/> Please consider the following suggestions:
@@ -21,7 +56,7 @@ fertilizer_dic = {
 
         <br/>3. <i>Watering </i> – soaking your soil with water will help leach the nitrogen deeper into your soil, effectively leaving less for your plants to use.
 
-        <br/>4. <i>Sugar </i> – In multiple studies, it was shown that adding sugar to your soil can help potentially increase the amount of nitrogen is your soil. Sugar is partially composed of carbon, an element which attracts and soaks up the nitrogen in the soil. This is similar concept to adding sawdust/woodchips which are high in carbon content.
+        <br/>4. <i>Sugar </i> – In multiple studies, it was shown that adding sugar to your soilNo do can help potentially increase the amount of nitrogen is your soil. Sugar is partially composed of carbon, an element which attracts and soaks up the nitrogen in the soil. This is similar concept to adding sawdust/woodchips which are high in carbon content.
 
         <br/>5. Add high nitrogen fertilizer like ammonia to the soil.
 
@@ -31,7 +66,7 @@ fertilizer_dic = {
 
         <br/>8. <i>Leave soil as it is </i> – It may seem counter-intuitive, but if you already have plants that are producing lots of foliage, it may be best to let them continue to absorb all the nitrogen to amend the soil for your next crops
 
-	<br/>6. <i> Use nitrogen suppling bacteria </i> - Bacteria such as Azotobacter, Bacillus, Clostridium, and Klebsiella transfer nitrogen from air to soil""",
+	<br/>9. <i> Use nitrogen suppling bacteria </i> - Bacteria such as Azotobacter, Bacillus, Clostridium, and Klebsiella transfer nitrogen from air to soil""",
 
         'PHigh': """The P value of your soil is high.
         <br/> Please consider the following suggestions:
